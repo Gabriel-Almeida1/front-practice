@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<form id="forms">
+    <div class="container">
+        <div class="form input">
+            <label>Name:</label>
+            <input class="inputs" type="text" name="name" placeholder="Type your name"/>
+        </div>
+        <div class="form input">
+            <label>Address:</label>
+            <input class="inputs" type="text" name="address" placeholder="Type your address"/>
+        </div>
+        <div class="form input">
+            <label>Email:</label>
+            <input class="inputs" type="email" name="email" placeholder="Type your email"/>
+        </div>
+        <div class="form days">
+            <label class="weekDays">Week days:</label>
+            <div class="day">  
+                <label>Sun</label>
+                <input type="checkbox" name="weekDay" value="sunday"/>
+            </div>
+            <div class="day">
+                <label>Mon</label>
+                <input type="checkbox" name="weekDay" value="monday"/>
+            </div>
+            <div class="day">
+                <label>Tue</label>
+                <input type="checkbox" name="weekDay" value="tuesday"/>
+            </div>
+            <div class="day">
+                <label>Wed</label>
+                <input type="checkbox" name="weekDay" value="wednesday"/>
+            </div>
+            <div class="day">
+                <label>Thu</label> 
+                <input type="checkbox" name="weekDay" value="thursday"/>
+            </div>
+            <div class="day">
+                <label>Fri</label>
+                <input type="checkbox" name="weekDay" value="friday"/>
+            </div>
+            <div class="day">
+                <label>Sat</label>
+                <input type="checkbox" name="weekDay" value="saturday"/>
+            </div>
+        </div>
+        
+        <div class="form time">
+            <label>Opening time:</label>
+            <input class="inputs" type="time" name="openingTime" placeholder="Enter time (e.g., 2:30 PM)"/>
+        </div>
+        <div class="form time">
+            <label>Closing time:</label>
+            <input class="inputs" type="time" name="closingTime" placeholder="Enter time (e.g., 2:30 PM)"/>
+        </div>
+        <div class="form button">
+            <button id="button" type="submit">Submit</button>
+        </div>
+    </div>
+    
+</form>
+    
+    <script src="event.js"></script>
+</body>
+</html>
